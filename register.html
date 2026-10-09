@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Register | Mintrage Commerce</title><meta name="description" content="Register as a Mintrage Commerce seller and start building your digital business."><meta name="theme-color" content="#12108F">
+<link rel="icon" href="favicon.png"><link rel="apple-touch-icon" href="favicon.png">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Mintrage Commerce"><meta property="og:title" content="Register | Mintrage Commerce"><meta property="og:description" content="Register as a Mintrage Commerce seller and start building your digital business."><meta property="og:image" content="og-image.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="styles.css"><script>document.documentElement.className="js"</script></head>
+<body><header id="site-header"></header>
+<main><section class="page-h"><div class="wrap ctr"><h1>Register as a Seller</h1><p class="sub">Complete the form accurately. We will email you the Seller Agreement and payment details for the USD 25 annual registration fee (non-refundable, valid 12 months).</p></div></section>
+<section style="padding-top:8px"><div class="wrap">
+<form id="reg-form" novalidate>
+<label for="fullName">Full legal name</label><input id="fullName" name="fullName" autocomplete="name" required maxlength="120">
+<label for="phone">Contact number (with country code)</label><input id="phone" name="phone" type="tel" autocomplete="tel" required maxlength="30">
+<label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="120">
+<label for="address">Residence address (including city and country)</label><textarea id="address" name="address" autocomplete="street-address" required maxlength="300"></textarea>
+<label for="citizenship">Country of citizenship</label><input id="citizenship" name="citizenship" required maxlength="80">
+<label for="idNumber">Passport / National ID number</label><input id="idNumber" name="idNumber" required maxlength="60" autocomplete="off">
+<label for="dob">Date of birth</label><input id="dob" name="dob" type="date" required>
+<div class="hp" aria-hidden="true"><label>Leave empty<input name="website" tabindex="-1" autocomplete="off"></label></div>
+<label class="chk"><input type="checkbox" name="consent" required><span>I confirm the details are accurate and agree to the <a href="policies.html#privacy" target="_blank">Privacy Policy</a> and <a href="policies.html#refund" target="_blank">Refund/Cancellation Policy</a>.</span></label>
+<button class="btn btn-p" type="submit">Submit Registration</button><div id="msg" role="status" aria-live="polite"></div></form>
+<div id="done" class="info" hidden style="max-width:640px;margin:0 auto"><h2>Registration received ✓</h2><p>Thank you. Please check your email (including spam) — we will send the Seller Agreement and payment details shortly. All communication will be by email.</p><a class="btn btn-d" href="index.html">Back to Home</a></div>
+</div></section></main>
+<footer id="site-footer"></footer>
+<script src="config.js"></script><script src="script.js" defer></script></body></html>
