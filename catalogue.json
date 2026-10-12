@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "displayCurrency": "US$",
+  "categories": ["Design", "Web", "Video", "Documents"],
+  "services": [
+    {"id": "logo-design", "name": "Logo Design", "category": "Design", "scope": "", "description": "", "basePrice": 50, "currency": "USD", "deliveryMinDays": 7, "deliveryMaxDays": 15, "revisions": 3, "active": true},
+    {"id": "social-media-design", "name": "Social Media Design", "category": "Design", "scope": "", "description": "", "basePrice": 120, "currency": "USD", "deliveryMinDays": 15, "deliveryMaxDays": 20, "revisions": 3, "active": true},
+    {"id": "flyer-brochure-design", "name": "Flyer & Brochure Design", "category": "Design", "scope": "", "description": "", "basePrice": 50, "currency": "USD", "deliveryMinDays": 10, "deliveryMaxDays": 20, "revisions": 3, "active": true},
+    {"id": "website-design-development", "name": "Website Design and Development", "category": "Web", "scope": "", "description": "", "basePrice": 200, "currency": "USD", "deliveryMinDays": 20, "deliveryMaxDays": 30, "revisions": null, "active": true},
+    {"id": "presentation-design", "name": "Presentation Design", "category": "Design", "scope": "", "description": "", "basePrice": 80, "currency": "USD", "deliveryMinDays": 15, "deliveryMaxDays": 20, "revisions": 3, "active": true},
+    {"id": "pitch-deck-design", "name": "Pitch Deck Design", "category": "Design", "scope": "", "description": "", "basePrice": 80, "currency": "USD", "deliveryMinDays": 15, "deliveryMaxDays": 20, "revisions": 3, "active": true},
+    {"id": "cv-design-writing", "name": "CV Design and Writing", "category": "Documents", "scope": "", "description": "", "basePrice": 50, "currency": "USD", "deliveryMinDays": 12, "deliveryMaxDays": 15, "revisions": 2, "active": true},
+    {"id": "reels-editing", "name": "Reels Editing", "category": "Video", "scope": "Up to 5 reels", "description": "", "basePrice": 60, "currency": "USD", "deliveryMinDays": 12, "deliveryMaxDays": 20, "revisions": 3, "active": true},
+    {"id": "youtube-video-editing", "name": "YouTube Video Editing", "category": "Video", "scope": "Up to 120 minutes in length", "description": "", "basePrice": 80, "currency": "USD", "deliveryMinDays": 12, "deliveryMaxDays": 20, "revisions": 3, "active": true},
+    {"id": "company-profile", "name": "Company Profile", "category": "Documents", "scope": "", "description": "", "basePrice": 80, "currency": "USD", "deliveryMinDays": 12, "deliveryMaxDays": 15, "revisions": 3, "active": true},
+    {"id": "business-proposal", "name": "Business Proposal", "category": "Documents", "scope": "", "description": "", "basePrice": 100, "currency": "USD", "deliveryMinDays": 15, "deliveryMaxDays": 20, "revisions": 3, "active": true}
+  ]
+}
