@@ -14,7 +14,7 @@
       "binding": "DB",
       "database_name": "mintrage",
       // Paste your D1 database ID here (Cloudflare > D1 > mintrage > Overview).
-      "database_id": "PASTE-YOUR-D1-DATABASE-ID"
+      "database_id": "d13b1a89-02c9-4c2a-9698-b3aa7e41a897"
     }
   ],
   "vars": {
