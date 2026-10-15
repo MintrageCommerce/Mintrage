@@ -17,8 +17,14 @@
       "database_id": "d13b1a89-02c9-4c2a-9698-b3aa7e41a897"
     }
   ],
+  {
+  // ...
   "vars": {
-    "SITE_URL": "https://mintrage.com",
+    "ALLOW_TEST_ACTIVATION": "true",
+    "EMAIL_FROM": "Mintrage <support@mintrage.com>",
+    "PAYMENT_ENV": "test",
     "PAYMENT_PROVIDER": "lemonsqueezy",
-    "EMAIL_FROM": "Mintrage <support@mintrage.com>"
-  }
+    "SITE_URL": "https://mintrage.com"
+  },
+  // ...
+}
