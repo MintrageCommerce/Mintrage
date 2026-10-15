@@ -22,3 +22,12 @@
     "EMAIL_FROM": "Mintrage <support@mintrage.com>"
   }
 }
+{
+  // ...
+  "vars": {
+    "EMAIL_FROM": "Mintrage <support@mintrage.com>",
+    "PAYMENT_PROVIDER": "lemonsqueez",
+    "SITE_URL": "https://mintrage.com"
+  },
+  // ...
+}
