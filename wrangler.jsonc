@@ -19,7 +19,7 @@
   ],
   "vars": {
     "SITE_URL": "https://mintrage.com",
-    PAYMENT_PROVIDER": "lemonsqueezy",
-"EMAIL_FROM": "Mintrage <support@mintrage.com>"
+    "PAYMENT_PROVIDER": "lemonsqueezy",
+    "EMAIL_FROM": "Mintrage <support@mintrage.com>"
   }
 
