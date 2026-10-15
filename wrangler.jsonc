@@ -17,8 +17,7 @@
       "database_id": "d13b1a89-02c9-4c2a-9698-b3aa7e41a897"
     }
   ],
-  {
-  // ...
+  
   "vars": {
     "ALLOW_TEST_ACTIVATION": "true",
     "EMAIL_FROM": "Mintrage <support@mintrage.com>",
