@@ -1,0 +1,7 @@
+# ...
+[vars]
+ALLOW_TEST_ACTIVATION = "true"
+EMAIL_FROM = "Mintrage <support@mintrage.com>"
+PAYMENT_PROVIDER = "lemonsqueez"
+SITE_URL = "https://mintrage.com"
+# ...
