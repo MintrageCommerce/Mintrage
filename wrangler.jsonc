@@ -7,3 +7,26 @@
   },
   // ...
 }
+  {
+
+    "name": "worker-name",
+
+    "compatibility_date": "2026-10-12",
+
+    "main": "src/index.ts"
+
+  }
+
+  {
+
+    "name": "worker-name",
+
+    "compatibility_date": "2026-10-12",
+
+    "assets": {
+
+      "directory": "./dist"
+
+    }
+  }
+  ```
