@@ -1,24 +1,9 @@
 {
-  // IMPORTANT: "name" must be exactly the name of your Worker in Cloudflare.
-  "name": "mintrage",
-  "main": "worker.js",
-  "compatibility_date": "2025-09-01",
-  "assets": {
-    "directory": "./",
-    "binding": "ASSETS",
-    "not_found_handling": "404-page",
-    "run_worker_first": ["/api/*"]
-  },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "mintrage",
-      // Paste your D1 database ID here (Cloudflare > D1 > mintrage > Overview).
-      "database_id": "d13b1a89-02c9-4c2a-9698-b3aa7e41a897"
-    }
-  ],
+  // ...
   "vars": {
-    "SITE_URL": "https://mintrage.com",
-    "EMAIL_FROM": "Mintrage <support@mintrage.com>"
-  }
+    "EMAIL_FROM": "Mintrage <support@mintrage.com>",
+    "PAYMENT_PROVIDER": "lemonsqueez",
+    "SITE_URL": "https://mintrage.com"
+  },
+  // ...
 }
